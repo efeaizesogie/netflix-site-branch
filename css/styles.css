@@ -319,7 +319,7 @@ p.footer-text {
 
 @media screen and (max-width: 600px) {
   .header {
-    height: 60vh;
+    height: 65vh;
     width: auto;
   }
 
