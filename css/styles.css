@@ -315,7 +315,7 @@ p.footer-text {
 
 @media screen and (max-width: 600px) {
   .header {
-    height: 80vh;
+    height: 60vh;
     width: auto;
   }
 
@@ -332,6 +332,10 @@ p.footer-text {
   }
   .email {
     margin-bottom: 1rem;
+    width: 30rem;
+  }
+
+  .tv-img {
     width: 45rem;
   }
 
@@ -356,9 +360,5 @@ p.footer-text {
   }
   .first-form {
     flex-direction: column;
-  }
-  .email {
-    margin-bottom: 1rem;
-    width: 40rem;
   }
 }
