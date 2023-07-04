@@ -339,6 +339,10 @@ p.footer-text {
     width: 100%;
     margin: 1rem 0;
   }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -356,9 +360,5 @@ p.footer-text {
   .email {
     margin-bottom: 1rem;
     width: 40rem;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
   }
 }
