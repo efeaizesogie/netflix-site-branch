@@ -329,6 +329,7 @@ p.footer-text {
 
   .heading-text {
     padding: 0 3rem;
+    margin-bottom: 2rem;
     text-align: center;
   }
   .first-form {
@@ -337,10 +338,6 @@ p.footer-text {
   .email {
     margin-bottom: 1rem;
     width: 30rem;
-  }
-
-  #submit {
-    margin-bottom: 2rem;
   }
 
   .tv-img {
