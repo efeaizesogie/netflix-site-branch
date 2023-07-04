@@ -17,6 +17,9 @@ body {
   font-size: 2rem;
   color: #fff;
   background: rgb(0 0 0 / 40%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-image: linear-gradient(
       to top right,
       rgba(0, 0, 0, 0.74) 0,
@@ -233,4 +236,121 @@ body {
 p.footer-text {
   border: none;
   margin-top: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+  html,
+  body {
+    font-size: 60%;
+  }
+
+  .header-section {
+    padding: 0.5rem 6rem;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sub-head {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .main-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .tv-img {
+    width: 50rem;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+
+  br {
+    display: none;
+  }
+
+  .fifty {
+    width: 100%;
+    margin: 5rem 0;
+  }
+
+  .section {
+    padding: 0.5rem 6rem;
+  }
+
+  .section-three {
+    padding: 0.5rem 6rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header-section {
+    padding: 0.5rem 3rem;
+  }
+
+  .logo {
+    width: 14rem;
+  }
+
+  .heading-text {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-section {
+    padding: 0.5rem 1rem;
+  }
+
+  .heading-text {
+    padding: 0 3rem;
+    text-align: center;
+  }
+  .first-form {
+    flex-direction: column;
+  }
+  .email {
+    margin-bottom: 1rem;
+    width: 45rem;
+  }
+
+  .questions {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header-section {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .heading-text {
+    padding: 0 3rem;
+    text-align: center;
+  }
+  .first-form {
+    flex-direction: column;
+  }
+  .email {
+    margin-bottom: 1rem;
+    width: 40rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
