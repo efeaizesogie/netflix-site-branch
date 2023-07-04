@@ -267,6 +267,10 @@ p.footer-text {
     text-align: center;
   }
 
+  .questions .sub-head {
+    text-align: left;
+  }
+
   .main-heading {
     font-size: 3rem;
     font-weight: 700;
@@ -335,6 +339,10 @@ p.footer-text {
     width: 30rem;
   }
 
+  #submit {
+    margin-bottom: 2rem;
+  }
+
   .tv-img {
     width: 45rem;
   }
@@ -346,6 +354,9 @@ p.footer-text {
 
   .grid {
     grid-template-columns: 1fr;
+  }
+  .no-padding {
+    padding: 0.5rem 3rem;
   }
 }
 
