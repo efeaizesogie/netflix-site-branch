@@ -332,6 +332,14 @@ p.footer-text {
     margin-bottom: 2rem;
     text-align: center;
   }
+
+  .heading-text .sub-head {
+    font-weight: 500;
+  }
+
+  .heading-text .sub-head {
+    font-weight: 500;
+  }
   .first-form {
     flex-direction: column;
   }
